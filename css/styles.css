@@ -221,26 +221,17 @@ color: var(--primary-text-color);
 }
 
 .our-privilege {
-    display: block;
-    height: 120px;
-    background: var(--accent-background-our-team-color);
-    margin-bottom: 30px;
-}
-
-/* .our-privilege {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 120px;
     background: var(--accent-background-our-team-color);
     margin-bottom: 30px;
-} */
+}
 
 .our-privilege-item {
     width: 65px ;
     height: 70px;
-    margin-top: 25px;
-    margin-left: 102px;
 }
  
 .about-subtitle {
