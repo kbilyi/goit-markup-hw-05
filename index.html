@@ -97,9 +97,21 @@
         <div class="container">
           <h2 class="services-title">Чем мы занимаемся</h2>
           <ul class="services-list">
-            <li class="services-img"><img src="images/img1.jpg" width="370" height="294" alt="руки на клавиатуре"></li>
-            <li class="services-img"><img src="images/img2.jpg" width="370" height="294" alt="телефон в руке"></li>
-            <li class="services-img"><img src="images/img3.jpg" width="370" height="294" alt="планшет в руке"></li>
+            <li class="services-img"><img src="images/img1.jpg" width="370" height="294" alt="руки на клавиатуре">
+            <div class="services-overlay">
+              <p>Десктопные приложения</p>
+            </div>
+            </li>
+            <li class="services-img"><img src="images/img2.jpg" width="370" height="294" alt="телефон в руке">
+              <div class="services-overlay">
+                <p>Мобильные приложения</p>
+              </div>
+            </li>
+            <li class="services-img"><img src="images/img3.jpg" width="370" height="294" alt="планшет в руке">
+              <div class="services-overlay">
+                <p class="overlay-title">Дизайнерские решения</p>
+              </div>
+            </li>
         </ul>
       </div>
       </section>
@@ -307,8 +319,8 @@
         </ul>
       </div>
       </section>
-      <div class="backdrop is-hidden">
-        <div  class="modal" data-modal>
+      <div class="backdrop is-hidden" data-modal>
+        <div  class="modal">
           <button  class="modal-button" data-modal-close>
             <svg class="modal-svg">
               <use href="./images/icons/sprite.svg#icon-close" width="30" height="30"> </use>
