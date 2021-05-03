@@ -104,6 +104,7 @@ color: var(--primary-text-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--primary-text-color);
+    position: relative;
 }
 
 .menu-link::after {
@@ -112,6 +113,14 @@ color: var(--primary-text-color);
     height: 4px;
     background: #2196F3;
     border-radius: 2px;
+    display: block;
+    position: absolute;
+    margin-top: 32px;
+    opacity: 0;
+}
+
+.menu-link:hover::after {
+    opacity: 1;
 }
 
 .header-links {
@@ -380,7 +389,8 @@ color: var(--primary-text-color);
     fill: var(--svg-primary-color);
 }
 
-.socials-icons-link:hover {
+.socials-icons-link:hover,
+.socials-icons-link:focus {
     background-color: var(--secondary-background-color);
 }
 
