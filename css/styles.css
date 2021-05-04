@@ -138,8 +138,6 @@ color: var(--primary-text-color);
 }
 
 .adress-icon {
-    width: 16px;
-    height: 12px;
     fill: currentColor;
     margin-right: 10px;
 }
@@ -350,6 +348,9 @@ color: var(--primary-text-color);
     border-radius: 4px;
     display: block;
     color: var(--svg-primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
 
 
@@ -357,9 +358,7 @@ color: var(--primary-text-color);
     margin-right: 30px;
  }
 
-.regular-clients-svg {
-    margin-left: 64px;
-    margin-top: 24px;  
+.regular-clients-svg { 
     fill: currentColor;
 }
 
@@ -490,12 +489,7 @@ a {
 }
 
 a:hover {
-    color: var(--secondary-background-color);
     cursor:pointer;
-}
-
-a:focus {
-    color: var(--secondary-background-color);
 }
 
 li {
