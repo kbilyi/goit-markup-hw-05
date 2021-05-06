@@ -146,11 +146,6 @@ color: var(--primary-text-color);
     margin-right: 10px;
 }
 
-.phone {
-    width: 10; 
-    height: 16;
-}
-
 .address-link {
     display: flex;
     align-items: center;
@@ -408,6 +403,10 @@ color: var(--primary-text-color);
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socials-icons-link:hover .socials-icons-svg,
