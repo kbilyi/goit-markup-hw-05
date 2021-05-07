@@ -543,15 +543,13 @@ button:hover {
 }
 
 .container-set {
-    position: relative;
     width: 370px;
     background: #FFFFFF;
-    box-sizing: border-box;
-    overflow: hidden;
 }
 
 .thumb-overlay {
     position: relative;
+    overflow: hidden;
 }
 
 .set-items {
@@ -560,8 +558,8 @@ button:hover {
     border-top: 0px;
 }
 
-.overlay-link .card-set-overlay:hover,
-.overlay-link .card-set-overlay:focus {
+.overlay-link:hover .card-set-overlay,
+.overlay-link:focus .card-set-overlay {
     opacity: 1;
     transform: translateY(0%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -585,6 +583,7 @@ button:hover {
     height: 100%;
 
     transform: translateY(100%);
+    transition: transform opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay-link {
