@@ -568,7 +568,6 @@ button:hover {
 
 .thumb-overlay {
     position: relative;
-    overflow: hidden;
 }
 
 .overlay-link .card-set-overlay:hover,
