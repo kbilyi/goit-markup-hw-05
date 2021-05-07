@@ -451,6 +451,8 @@ color: var(--primary-text-color);
 
 .set-items {
     padding: 24px 24px 24px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: 0px;
 }
 
 .name {
@@ -562,7 +564,6 @@ button:hover {
     position: relative;
     width: 370px;
     background: #FFFFFF;
-    border: 1px solid #EEEEEE;
     box-sizing: border-box;
 }
 
@@ -573,7 +574,7 @@ button:hover {
 .overlay-link .card-set-overlay:hover,
 .overlay-link .card-set-overlay:focus {
     opacity: 1;
-    transform: translateY(-100%);
+    transform: translateY(0%);
 }
 
 .card-set-overlay {
@@ -593,7 +594,7 @@ button:hover {
     width: 100%;
     height: 100%;
 
-    transform: translateY(-100%);
+    transform: translateY(100%);
 }
 
 .overlay-link {
