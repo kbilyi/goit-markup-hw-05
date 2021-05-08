@@ -105,6 +105,10 @@ color: var(--primary-text-color);
     letter-spacing: 0.02em;
     color:var(--primary-text-color);
     position: relative;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover {
@@ -163,6 +167,10 @@ color: var(--primary-text-color);
 
 .contacts {
     color: var(--accent-text-color);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts:hover {
@@ -354,6 +362,10 @@ color: var(--primary-text-color);
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 
@@ -614,6 +626,10 @@ button:focus {
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.2);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -630,6 +646,10 @@ button:focus {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-button {
