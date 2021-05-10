@@ -656,11 +656,20 @@ button:focus {
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    padding-left: 0;
+    padding-top: 0;
+}
+
+.modal-button:hover {
+    background-color: var(--secondary-text-color);
+    border-radius: 50%;
 }
 
 .modal-svg {
-    margin-top: 0px;
-    margin-right: 0px;
+    padding-left: 0;
+    padding-top: 0;
+    width: 30px;
+    height: 30px;
 }
 
 /* -------------------------------ФУТЕР--------------------------------- */
