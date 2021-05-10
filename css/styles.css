@@ -375,6 +375,10 @@ color: var(--primary-text-color);
 
 .regular-clients-svg { 
     fill: currentColor;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .regular-clients-link:hover,
@@ -654,10 +658,14 @@ button:focus {
 
 .modal-button {
     border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    position: absolute;
     width: 30px;
     height: 30px;
-    padding-left: 0;
-    padding-top: 0;
+    top: 0;
+    right: 0;
+    margin-right: 8px;
+    margin-top: 8px;
 }
 
 .modal-button:hover {
@@ -666,10 +674,8 @@ button:focus {
 }
 
 .modal-svg {
-    padding-left: 0;
-    padding-top: 0;
-    width: 30px;
-    height: 30px;
+    margin-top: 7px;
+    margin-left: 2px;
 }
 
 /* -------------------------------ФУТЕР--------------------------------- */
