@@ -125,6 +125,10 @@ color: var(--primary-text-color);
     position: absolute;
     margin-top: 32px;
     opacity: 0;
+
+    transition-property: background-color, opacity, visibility;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link:hover::after {
@@ -631,7 +635,7 @@ button:focus {
     left: 0;
     background: rgba(0, 0, 0, 0.2);
 
-    transition-property: background-color;
+    transition-property: background-color, opacity, visibility;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -639,6 +643,7 @@ button:focus {
 .backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
+    visibility: hidden;
 }
 
 .modal {
@@ -671,6 +676,8 @@ button:focus {
 .modal-button:hover {
     background-color: var(--secondary-text-color);
     border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
 
 .modal-svg {
